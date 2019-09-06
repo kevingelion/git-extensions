@@ -61,7 +61,7 @@ Here is a variant that also adds support for the [hub](https://github.com/github
         else
             "$gitCommand" "$@"
         fi
-}
+    }
 
 The following function also allows extending the `hub` command (in a different way than what the forwarded-to `git` command would offer, e.g. to have both `git-cheat` and `hub-cheat`):
 
